@@ -1,0 +1,15 @@
+# Req 2: Docker compose file will be checked
+version: '3.8'
+
+services:
+  app:
+    # Build the image from the Dockerfile in the current directory
+    build: .
+    # Map port 8501 on the host to port 8501 in the container
+    ports:
+      - "8501:8501"
+    # Mount the current directory into the container at /app
+    # This allows for hot-reloading: changes to app.py on your
+    # host machine will be reflected inside the container.
+    volumes:
+      - .:/app
