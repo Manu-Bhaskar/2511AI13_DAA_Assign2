@@ -1,5 +1,5 @@
 # Req 2: Docker compose file will be checked
-version: '3.8'
+version: '3.12'
 
 services:
   app:

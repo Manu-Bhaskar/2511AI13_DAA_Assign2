@@ -1,0 +1,7 @@
+2025-10-31 13:49:31,775 - INFO - Processing uploaded file: input_btp_mtp_allocation.csv
+2025-10-31 13:49:31,807 - INFO - Found 18 faculties: ['ABM', 'AE', 'AM', 'AR', 'CA', 'JC', 'JM', 'MA', 'RH', 'RM', 'RM2', 'RS', 'SK', 'SKD', 'SKM', 'SM', 'SS', 'ST']
+2025-10-31 13:49:31,809 - INFO - Calculating preference statistics...
+2025-10-31 13:49:31,877 - INFO - Successfully calculated preference stats.
+2025-10-31 13:49:31,903 - INFO - Starting allocation for 90 students and 18 faculties.
+2025-10-31 13:49:32,081 - INFO - Allocation complete.
+2025-10-31 13:49:32,083 - INFO - Faculty Counts (Final): {'ABM': 4, 'AE': 6, 'AM': 6, 'AR': 5, 'CA': 4, 'JC': 6, 'JM': 5, 'MA': 5, 'RH': 5, 'RM': 5, 'RM2': 5, 'RS': 5, 'SK': 5, 'SKD': 4, 'SKM': 5, 'SM': 4, 'SS': 6, 'ST': 5}
